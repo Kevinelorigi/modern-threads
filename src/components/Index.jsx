@@ -5,7 +5,7 @@ import Polo from "../img/Polo.webp";
 
 const Index = () => {
   return (
-    <div className="flex relative">
+    <div className="flex relative bg-[#D8D9D8]">
       <div className="w-1/2 h-screen">
         <img
           src={Mujer}
@@ -36,14 +36,14 @@ const Index = () => {
           <img src={Hombre} alt="Imagen Derecha" className="w-1/2" />
         </div>
         <div className="absolute bottom-[120px] left-1/4 w-1/2 flex flex-col items-center">
-          <div className="mt-16 bg-[#D9D8D8] text-white text-center p-5 w-full rounded-2xl">
-            <div className="flex">
-              <img src={Polo} alt="Polo" className="w-[70px] rounded-md" />
-              <div className="">
-                <p className="text-black font-bold">Lacoste</p>
+          <div className="mt-16 border border-black bg-[#D9D8D8] text-white text-center p-3 w-full rounded-2xl">
+            <div className="flex items-center justify-center">
+              <img src={Polo} alt="Polo" className="w-[60px] rounded-md ml-4" />
+              <div className="ml-6 text-lg">
+                <p className="text-black font-bold text-left">Lacoste</p>
                 <p className="text-black font-bold">Polo Negro Lacoste</p>
-                <p className="text-black font-bold">$100.000</p>
               </div>
+              <p className="text-black font-bold ml-auto pr-10 text-lg">$100.000</p>
             </div>
           </div>
         </div>
