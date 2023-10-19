@@ -6,16 +6,24 @@ import Products from './components/Products'
 import Finish from './components/Finish'
 import Car from './components/Car'
 
+const IndexAndProducts = () => {
+  return (
+    <>
+      <Index />
+      <Products />
+      <Finish />
+    </>
+  )
+}
+
 const App = () => {
   return (
     <>
       <Navbar />
       <Routes>
-        <Route index path='/' element={<Index />} />
+        <Route index path='/' element={<IndexAndProducts />} />
         <Route path='/car' element={<Car />} />
       </Routes>
-      <Products />
-      <Finish/>
     </>
   )
 }
