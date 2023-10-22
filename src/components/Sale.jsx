@@ -1,5 +1,10 @@
 import React from "react";
 import Señor from "../img/SeñorGrande.png";
+import Camisa from "../img/Camisa.png";
+import Joven from "../img/Joven.png"
+import Negro from "../img/Negro.png"
+import Rosado from "../img/Rosado.png"
+import Amarillo from "../img/Amarillo.png"
 
 const Sale = () => {
   return (
@@ -34,8 +39,92 @@ const Sale = () => {
       <div className="mt-10 ml-10">
         <h1 className="font-bold text-2xl">Clothes For You!</h1>
       </div>
-      <div>
-        <div></div>
+
+      <div className="flex flex-row-reverse justify-evenly space-x-8 mt-10">
+        <div>
+          <div className="bg-[#F7F3F1] w-[280px] h-[280px] rounded-xl">
+            <img src={Amarillo} alt="Cd1" className="w-[247px] ml-5" />
+          </div>
+
+          <div className="font-bold flex space-x-4">
+            <p>Camiseta Roja</p>
+            <p>$69.900</p>
+          </div>
+          <p className="text-[#7C7C7D] font-bold">
+            Cómoda, tela suave y fresca
+          </p>
+          <button className="bg-white border border-black px-6 py-1 rounded-xl mt-3 ml-16">
+            Add to Cart
+          </button>
+        </div>
+
+        <div>
+          <div className="bg-[#F7F3F1] w-[280px] h-[280px] rounded-xl">
+            <img src={Rosado} alt="Cd2" className="w-[187px] ml-8"/>
+          </div>
+
+          <div className="font-bold flex space-x-4">
+            <p>Camiseta Azul</p>
+            <p>$79.900</p>
+          </div>
+          <p className="text-[#7C7C7D] font-bold">
+            Cómoda, tela suave y fresca
+          </p>
+          <button className="bg-white border border-black px-6 py-1 rounded-xl mt-3 ml-16">
+            Add to Cart
+          </button>
+        </div>
+
+        <div>
+          <div className="bg-[#F7F3F1] w-[280px] h-[280px] rounded-xl">
+            <img src={Negro} alt="Cd3" className="w-[187px] ml-8" />
+          </div>
+
+          <div className="font-bold flex space-x-4">
+            <p>Camiseta Verde</p>
+            <p>$89.900</p>
+          </div>
+          <p className="text-[#7C7C7D] font-bold">
+            Cómoda, tela suave y fresca
+          </p>
+          <button className="bg-white border border-black px-6 py-1 rounded-xl mt-3 ml-16">
+            Add to Cart
+          </button>
+        </div>
+
+        <div>
+          <div className="bg-[#F7F3F1] w-[280px] h-[280px] rounded-xl">
+            <img src={Joven} alt="Cd4" className="w-[187px] ml-8" />
+          </div>
+
+          <div className="font-bold flex space-x-4">
+            <p>Camiseta Amarilla</p>
+            <p>$99.900</p>
+          </div>
+          <p className="text-[#7C7C7D] font-bold">
+            Cómoda, tela suave y fresca
+          </p>
+          <button className="bg-white border border-black px-6 py-1 rounded-xl mt-3 ml-16">
+            Add to Cart
+          </button>
+        </div>
+
+        <div>
+          <div className="bg-[#F7F3F1] w-[280px] h-[280px] rounded-xl">
+            <img src={Camisa} alt="Cd5" className="w-[247px]" />
+          </div>
+
+          <div className="font-bold flex space-x-4">
+            <p>Camiseta Negra</p>
+            <p>$109.900</p>
+          </div>
+          <p className="text-[#7C7C7D] font-bold">
+            Cómoda, tela suave y fresca
+          </p>
+          <button className="bg-white border border-black px-6 py-1 rounded-xl mt-3 ml-16">
+            Add to Cart
+          </button>
+        </div>
       </div>
     </div>
   );

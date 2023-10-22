@@ -12,21 +12,40 @@ const Footer = () => {
         />
       </div>
       <div className="w-1/2">
-        <div className="w-full h-1/2 flex flex-row justify-around">
-            <div>
-                <h1 className="font-bold text-2xl">To Discover</h1>
-                <p className="text-[#7A7B7A] font-bold">We</p>
-            </div>
-            <div>
-                <h1 className="font-bold text-2xl">Our Commiments</h1>
-                <p className="text-[#7A7B7A] font-bold">We</p>
-            </div>
+        <div className="w-full h-1/2 flex flex-row justify-around mt-10">
+          <div>
+            <h1 className="font-bold text-2xl">To Discover</h1>
+            <p className="text-[#7A7B7A] font-bold">
+              <ul>WIND BREAKER</ul>
+              <ul>JACKETS</ul>
+              <ul>TRENCH & PACKAS</ul>
+              <ul>SHEATERS</ul>
+              <ul>POLO SHIRTS & TSHIRTS</ul>
+              <ul>SHORTS & PANTS</ul>
+              <ul>SWIM WAER</ul>
+            </p>
+          </div>
+          <div>
+            <h1 className="font-bold text-2xl">Our Commiments</h1>
+            <p className="text-[#7A7B7A] font-bold">
+              <ul>CONTACT US</ul>
+              <ul>SHIPPING & RETURNS</ul>
+              <ul>C.V.G</ul>
+              <ul>FAQ</ul>
+            </p>
+          </div>
         </div>
         <div className="w-1/2">
-            <div>
-                <h1 className="font-bold text-2xl">Modern Threads</h1>
-                <p className="text-[#7A7B7A] font-bold">Size</p>
-            </div>
+        <div className="ml-36">
+            <h1 className="font-bold text-2xl">Modern Threads</h1>
+            <p className="text-[#7A7B7A] font-bold">
+              <ul>SIZE MATCHING</ul>
+              <ul>OUR STORES</ul>
+              <ul>CAREERS</ul>
+              <ul>OURS STORY</ul>
+              <ul>LEGAL</ul>
+            </p>
+          </div>
         </div>
       </div>
     </div>
