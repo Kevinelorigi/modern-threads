@@ -3,8 +3,8 @@ import Navbar from "./components/Navbar";
 import { Routes, Route } from "react-router-dom";
 import Index from "./components/Index";
 import Cart from "./components/Cart";
-import Footer from "./components/Footer";
 import Sale from "./components/Sale";
+import Cashout from "./components/Cashout";
 
 const App = () => {
   return (
@@ -13,8 +13,8 @@ const App = () => {
       <Routes>
         <Route index path="/" element={<Index />} />
         <Route path="/Cart" element={<Cart />} />
-        <Route path="/Footer" element={<Footer />} />
         <Route path="/Sale" element={<Sale />} />
+        <Route path="/Pago" element={<Cashout />} />
       </Routes>
     </>
   );
