@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Mujer from "../img/Mujer.jpg";
 import Hombre from "../img/Cinco.png";
 import Polo from "../img/Polo.webp";
@@ -118,9 +119,11 @@ const Index = () => {
             <p className="font-bold text-8xl text-white ml-6">MODERN</p>
             <p className="font-bold text-8xl mt-10 text-white ml-6">THREADS</p>
             <p className="font-bold text-2xl mt-12 text-white ml-5">Lorem</p>
-            <button className="bg-white border border-black px-5 py-1 ml-10 mt-4 rounded-xl">
-              SHOP STORE
-            </button>
+            <Link to="/Sale">
+              <button className="bg-white border border-black px-5 py-1 ml-10 mt-4 rounded-xl">
+                SHOP STORE
+              </button>
+            </Link>
           </div>
           <div className="w-full md:w-1/2 h-1/2 object-cover">
             <img src={Hombrr} alt="Hombre" className="w-full h-[973px] mb-4" />

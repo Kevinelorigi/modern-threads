@@ -1,10 +1,10 @@
 import React from "react";
 import Señor from "../img/SeñorGrande.png";
 import Camisa from "../img/Camisa.png";
-import Joven from "../img/Joven.png"
-import Negro from "../img/Negro.png"
-import Rosado from "../img/Rosado.png"
-import Amarillo from "../img/Amarillo.png"
+import Joven from "../img/Joven.png";
+import Negro from "../img/Negro.png";
+import Rosado from "../img/Rosado.png";
+import Amarillo from "../img/Amarillo.png";
 
 const Sale = () => {
   return (
@@ -60,7 +60,7 @@ const Sale = () => {
 
         <div>
           <div className="bg-[#F7F3F1] w-[280px] h-[280px] rounded-xl">
-            <img src={Rosado} alt="Cd2" className="w-[187px] ml-8"/>
+            <img src={Rosado} alt="Cd2" className="w-[187px] ml-8" />
           </div>
 
           <div className="font-bold flex space-x-4">
