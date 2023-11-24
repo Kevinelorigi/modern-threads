@@ -1,4 +1,3 @@
-import React from "react";
 import Una from "../img/Una.png";
 import Dos from "../img/Linda.png";
 import Lindo from "../img/Lindo.png";
