@@ -11,12 +11,12 @@ const Cashout = () => {
             <div className="bg-[#F7F2F0] w-[150px] ml-20 border border-black rounded-2xl">
               <img src={Joven} alt="Joven-Shop" />
             </div>
-            <div class="flex flex-row">
+            <div className="flex flex-row">
               <div className="ml-20">
                 <p className="font-bold text-2xl">Camiseta Azul-Oscuro</p>
                 <p className="font-bold text-[#AAAAAA]">Talla: S</p>
               </div>
-              <div class="ml-36">
+              <div className="ml-36">
                 <p className="font-bold text-2xl">$69.900</p>
                 <p className="font-bold text-[#AAAAAA]">Cantidad: 1</p>
               </div>

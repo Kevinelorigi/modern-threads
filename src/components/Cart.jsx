@@ -1,8 +1,8 @@
-import React from "react";
 import Una from "../img/Una.png";
 import Dos from "../img/Linda.png";
 import Lindo from "../img/Lindo.png";
 import Niño from "../img/Niño.png";
+import { Link } from "react-router-dom";
 
 const Cart = () => {
   return (
@@ -28,9 +28,12 @@ const Cart = () => {
       </div>
 
       <div className="flex justify-center mt-10 mb-6">
-        <button className="bg-white border border-black px-6 py-2 rounded-xl">
+        <Link
+          to="pago"
+          className="bg-white border border-black px-6 py-2 rounded-xl"
+        >
           REALIZAR PEDIDO
-        </button>
+        </Link>
       </div>
     </div>
   );

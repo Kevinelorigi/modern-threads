@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { FaCartShopping } from "react-icons/fa6";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -8,28 +9,14 @@ const Navbar = () => {
   const links = [
     {
       id: 1,
-      link: "",
-      text: "NEW",
+      link: "/sale",
+      text: "SALES",
     },
     {
       id: 2,
-      link: "",
-      text: "ADULT",
-    },
-    {
-      id: 3,
-      link: "",
-      text: "CHILD",
-    },
-    {
-      id: 4,
-      link: "",
-      text: "ACESSORIES",
-    },
-    {
-      id: 5,
-      link: "",
-      text: "OUTLET",
+      link: "/cart",
+      text: <FaCartShopping />,
+      style: "w-20 h-20 p-6",
     },
   ];
 
@@ -38,18 +25,22 @@ const Navbar = () => {
       <div>
         <h1 className="text-3xl ml-2">
           {" "}
-          <span className="text-5xl">M</span>odern
-          <span className="text-5xl">T</span>hreads
+          <Link className="cursor hover:opacity-70 duration-300" to="/">
+            <span className="text-5xl">M</span>odern
+            <span className="text-5xl">T</span>hreads
+          </Link>
         </h1>
       </div>
 
       <ul className="hidden md:flex">
-        {links.map(({ id, link, text }) => (
+        {links.map((item) => (
           <li
-            key={id}
-            className="px-8 cursor-pointer capitalize font-medium text-black hover:scale-105 duration-200"
+            key={item.id}
+            className={`px-8 cursor-pointer capitalize font-medium text-black hover:scale-105 duration-200 `}
           >
-            <Link to={`/${link}`}>{text}</Link>
+            <Link className={item.style} to={item.link}>
+              {item.text}
+            </Link>
           </li>
         ))}
       </ul>
@@ -63,13 +54,13 @@ const Navbar = () => {
 
       {nav && (
         <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-white to-[#D8D9D8]">
-          {links.map(({ id, link, text }) => (
+          {links.map((item) => (
             <li
-              key={id}
+              key={item.id}
               className="px-4 cursor-pointer capitalize py-6 text-4xl"
             >
-              <Link onClick={() => setNav(!nav)} to={`/${link}`}>
-                {text}
+              <Link onClick={() => setNav(!nav)} to={`/${item.link}`}>
+                {item.text}
               </Link>
             </li>
           ))}
