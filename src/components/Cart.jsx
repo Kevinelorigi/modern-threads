@@ -9,7 +9,7 @@ const Cart = () => {
     <div className="min-h-[calc(100vh-70px)]">
       <div className="flex m-10 text-6xl font-bold">
         <h1 className="text-center flex-grow ">MY CART</h1>
-        <p className="text-2xl ml-auto text-[#C4C4C5]">Total : $99999</p>
+        <p className="text-2xl ml-auto">Total : $99999</p>
       </div>
 
       <div className="flex justify-between w-[95%] h-[790px] mx-auto pt-6">
