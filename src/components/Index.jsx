@@ -14,7 +14,7 @@ const Index = () => {
   return (
     <div>
       <div name="principal" className="flex relative bg-[#D8D9D8]">
-        <div className="w-full md:w-1/2 h-screen">
+        <div className="w-full md:w-1/2 h-screen -z-0">
           <img
             src={Mujer}
             alt="Imagen Izquierda"
@@ -24,14 +24,6 @@ const Index = () => {
             <div className="text-white text-4xl md:text-6xl ml-2 md:ml-7">
               <p className="font-bold">NEW</p>
               <p className="font-bold">COLLECTION</p>
-            </div>
-            <div className="ml-2 md:ml-7 mt-16 md:mt-32 space-x-4 md:space-x-20">
-              <button className="bg-[#D9D8D6] px-2 md:px-4 py-1 md:py-2 rounded-lg font-bold">
-                SHOP MEN
-              </button>
-              <button className="bg-[#D9D8D6] px-2 md:px-4 py-1 md:py-2 rounded-lg font-bold">
-                SHOP WOMEN
-              </button>
             </div>
           </div>
         </div>
