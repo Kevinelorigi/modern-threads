@@ -121,7 +121,7 @@ const Index = () => {
             <img src={Hombrr} alt="Hombre" className="w-full h-[973px] mb-4" />
           </div>
         </div>
-        <footer className="flex flex-col md:flex-row mb-4 mt-10 md:mb-0">
+        <footer className="flex flex-col md:flex-row mb-4 md:mb-0">
           <div className="w-full md:w-1/2 h-full flex md:flex-row-reverse bg-[#7CFE80]">
             <img
               src={Mujersota}
@@ -129,7 +129,7 @@ const Index = () => {
               className="h-full object-cover md:mr-auto"
             />
           </div>
-          <div className="w-full md:w-1/2">
+          <div className="w-full md:w-1/2 pl-60">
             <div className="w-full h-1/2 md:flex md:flex-row md:justify-around mt-10">
               <div className="w-full md:w-1/2">
                 <h1 className="font-bold text-2xl">To Discover</h1>
