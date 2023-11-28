@@ -122,7 +122,7 @@ const Index = () => {
           </div>
         </div>
         <div>
-          <div className="h-screen flex">
+          <div className="h-screen flex md:flex-row mb-4 mt-10 md:mb-0">
             <div className="w-1/2 h-full flex flex-row-reverse bg-[#7CFE80]">
               <img
                 src={Mujersota}
